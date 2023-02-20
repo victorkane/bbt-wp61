@@ -1,10 +1,10 @@
 {
-  "version": 2,
-  "$schema": "https://schemas.wp.org/wp/6.1/theme.json",
-  "settings": {
-    "layout": {
-      "contentSize": "520px",
-      "wideSize": "750px"
-    }
-  }
+	"settings": {
+		"layout": {
+			"contentSize": "520px",
+			"wideSize": "750px"
+		}
+	},
+	"version": 2,
+	"$schema": "https://schemas.wp.org/wp/6.1/theme.json"
 }
