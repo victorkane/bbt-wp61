@@ -112,7 +112,7 @@ build/
 
 # !wp-content/mu-plugins/example-mu-plugin/
 # !wp-content/plugins/example-plugin/
-# !wp-content/themes/example-theme/
+!wp-content/themes/block-based-bosco-2023
 
 # !wp-content/mu-plugins/lso-custom-post-types.php
 # !wp-content/themes/mydreamtheme/
