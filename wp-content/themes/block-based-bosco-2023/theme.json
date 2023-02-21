@@ -101,6 +101,76 @@
     "typography": {
       "fontFamily": "Lora, Georgia, serif",
       "lineHeight": "1.45"
+    },
+    "elements": {
+      "link": {
+        "color": {
+          "text": "var(--wp--preset--color--red)"
+        }
+      },
+      "h1": {
+        "typography": {
+          "fontSize": "1.811rem"
+        },
+        "spacing": {
+          "margin": {
+            "bottom": "1.811rem"
+          }
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "1.618rem"
+        },
+        "spacing": {
+          "margin": {
+            "bottom": "1.618rem"
+          }
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "1.159rem"
+        },
+        "spacing": {
+          "margin": {
+            "bottom": "1.159rem"
+          }
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontSize": "1rem"
+        },
+        "spacing": {
+          "margin": {
+            "bottom": "1rem"
+          }
+        }
+      },
+      "h5": {
+        "typography": {
+          "fontSize": "1rem",
+          "fontStyle": "italic",
+          "fontWeight": "700"
+        },
+        "spacing": {
+          "margin": {
+            "bottom": "1rem"
+          }
+        }
+      },
+      "h6": {
+        "typography": {
+          "fontSize": "1rem",
+          "fontStyle": "italic"
+        },
+        "spacing": {
+          "margin": {
+            "bottom": "1rem"
+          }
+        }
+      }
     }
   },
   "version": 2,
