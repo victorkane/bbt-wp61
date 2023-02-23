@@ -36,7 +36,41 @@
       "wideSize": "750px"
     },
     "spacing": {
-      "blockGap": true
+      "blockGap": true,
+      "margin": true,
+      "padding": true,
+      "spacingSizes": [
+        {
+          "name": "Small",
+          "slug": "small",
+          "size": "1.159rem"
+        },
+        {
+          "name": "Normal",
+          "slug": "normal",
+          "size": "1.618rem"
+        },
+        {
+          "name": "Medium",
+          "slug": "medium",
+          "size": "2.618rem"
+        },
+        {
+          "name": "Large",
+          "slug": "large",
+          "size": "3.75"
+        },
+        {
+          "name": "Extra-Large",
+          "slug": "extra-large",
+          "size": "4.1875em"
+        },
+        {
+          "name": "Huge",
+          "slug": "huge",
+          "size": "7.6875rem"
+        }
+      ]
     },
     "typography": {
       "fontFamilies": [
