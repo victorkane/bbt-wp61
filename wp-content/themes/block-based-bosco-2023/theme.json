@@ -247,6 +247,44 @@
         "typography": {
           "fontWeight": "bold",
           "textTransform": "uppercase"
+        },
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            },
+            ":hover": {
+              "color": {
+                "text": "var(--wp-preset--color--red)"
+              }
+            }
+          }
+        }
+      },
+      "core/site-title": {
+        "elements": {
+          "link": {
+            "color": {
+              "text": "var(--wp-preset--color--black)"
+            },
+            "typography": {
+              "textDecoration": "none"
+            },
+            ":hover": {
+              "color": {
+                "text": "var(--wp-preset--color--red)"
+              }
+            }
+          }
+        }
+      },
+      "core/post-title": {
+        "elements": {
+          "link": {
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
         }
       }
     }
