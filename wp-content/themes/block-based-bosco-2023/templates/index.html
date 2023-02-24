@@ -13,7 +13,19 @@
 <!-- wp:post-content {"layout":{"type":"default"}} /-->
 
 <!-- wp:group {"style":{"border":{"top":{"color":"var:preset|color|light-grey","width":"1px"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--light-grey);border-top-width:1px"><!-- wp:post-date {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small"}}}} /--></div>
+<div class="wp-block-group" style="border-top-color:var(--wp--preset--color--light-grey);border-top-width:1px"><!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|small"},"blockGap":"var:preset|spacing|small"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--small)"><!-- wp:paragraph -->
+<p>Posted on</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:post-date {"style":{"spacing":{"padding":{"top":"0"}}}} /-->
+
+<!-- wp:paragraph -->
+<p>by</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:post-author {"showAvatar":false,"showBio":false} /--></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 <!-- /wp:post-template -->
