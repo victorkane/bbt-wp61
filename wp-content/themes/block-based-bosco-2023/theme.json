@@ -250,13 +250,13 @@
         },
         "elements": {
           "link": {
-            "typography": {
-              "textDecoration": "none"
-            },
             ":hover": {
               "color": {
-                "text": "var(--wp-preset--color--red)"
+                "text": "#cc0000"
               }
+            },
+            "typography": {
+              "textDecoration": "none"
             }
           }
         }
@@ -272,7 +272,7 @@
             },
             ":hover": {
               "color": {
-                "text": "var(--wp-preset--color--red)"
+                "text": "#cc0000"
               }
             }
           }
@@ -283,6 +283,11 @@
           "link": {
             "typography": {
               "textDecoration": "none"
+            },
+            ":hover": {
+              "color": {
+                "text": "#000000"
+              }
             }
           }
         }
